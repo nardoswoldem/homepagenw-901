@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(27, 158, 110, 0.5);
+    font-size:22px;
+}
+
+p {
+    background-color: aquamarine;
+    color :rgb(80, 147, 124);
+    border: dashed 10px pink;
+    text-align:justify;
+   /* width: 700px;*/
+    padding: 20px 60px 80px 100px;
+    margin: 50px;
+}
+/* 
+4 values 1st = top, 2nd = right, 3rd = bottom, 4th = left
+*/
+h1 {
+    font-size:60px;
+}
+
+.special {
+    background-color: brown;
+    color: aqua;
+    border-radius: 100%;
+}
+
+.centered-text {
+    text-align:center;
+}
