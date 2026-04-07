@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: black;
+
+}
+
+
+.container {
+    background-color: black;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    position: relative;
+     background-image: url(https://img1.picmix.com/output/stamp/normal/6/2/7/3/2653726_ce60f.gif);
+
+
+}
+
+.nyan {
+    width: 200px;
+    position:absolute;
+    animation:move 10s linear infinite;
+    display:flex;
+    align-items: center;
+    
+
+}
+
+@keyframes move {
+    0%{
+        left:-600px;
+    }
+
+    100%{
+        left: 100vw;
+    }
+}
+
+.rainbow {
+    width: 500px;
+    height: 90px;
+    margin-right: 10px;
+    left: -900px;
+    position:absolute;
+    background: linear-gradient(red, orange, yellow, green, blue, purple);
+    animation: move 15s linear infinite;
+   
+}

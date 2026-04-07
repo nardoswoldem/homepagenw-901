@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>   </title>
+         <link rel="stylesheet" href="main.css">
+     
+    </head>
+    <body>
+
+
+        <div class="buttons">
+
+           
+        <button class="reset-btn">reset</button>
+       
+ 
+        </div>
+
+
+
+
+
+  <div class="circles">
+
+    <div class="face sad"><img src="happy_css.png"></div>
+    <div class="face bruise"><img src="happy_css.png"></div>
+    <div class="face sick"><img src="happy_css.png"></div>
+    <div class="face mad"><img src="happy_css.png"></div>
+    <div class="face loved"><img src="happy_css.png"></div>
+    <div class="face scared"><img src="happy_css.png"></div>
+
+</div>
+
+<script>
+document.querySelector('.reset-btn').onclick = function() {
+    document.querySelectorAll('.face img').forEach(function(img) {
+        img.src = 'happy_css.png';
+    });
+};
+</script>
+
+
+  <script>
+document.querySelector('.bruise').onclick = function() {
+    this.querySelector('img').src = 'bruise_css.png';
+};
+
+document.querySelector('.sick').onclick = function() {
+    this.querySelector('img').src = 'sick_css.png';
+};
+
+document.querySelector('.sad').onclick = function() {
+    this.querySelector('img').src = 'Sad_css.png';
+};
+
+document.querySelector('.mad').onclick = function() {
+    this.querySelector('img').src = 'mad_css.png';
+};
+
+document.querySelector('.loved').onclick = function() {
+    this.querySelector('img').src = 'loved_css.png';
+};
+
+document.querySelector('.scared').onclick = function() {
+    this.querySelector('img').src = 'Scared_css.png';
+};
+</script>
+
+    </body>
+</html>
+
+

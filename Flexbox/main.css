@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+}
+.block {
+    background-color: brown;
+    height:50px;
+    margin:20px;
+    padding:20px; 
+}
+
+
+.Inline {
+    background-color: aquamarine;
+    width:1dvb;
+    height:50px;
+    margin:50px;
+    padding: 50px;
+    display: inline-block;
+}
+
+.container{
+    background-color: plum;
+    padding: 20px;
+    display:flex;
+
+    height:600px;
+
+/* establishes the main-axis of the flexbox*/
+    flex-direction: row;
+    flex-wrap:wrap;
+
+/* main-axis alignment*/
+    justify-content: space-between;
+
+
+/* cross-axis alignment*/
+align-items: flex-end;
+
+/* cross-axis alignment for weapping flexboxes */
+align-content: flex-end;
+
+gap:20x
+}
+
+.item{
+    background-color: bisque;
+    padding:10px;
+    border: 1px solid;
+
+    width:100px;
+}
